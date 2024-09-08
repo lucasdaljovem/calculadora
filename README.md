@@ -8,9 +8,7 @@ Este projeto simples de uma calculadora, feito para treinar as habilidades bási
 ## Instalação e iniciação
 
 1. Instale o programa e execute o arquivo "index.html".
-2. Se preferir apenas visualizar o programa, acesse este link: https://
-
-
+2. Se preferir apenas visualizar o programa, acesse este link: https://calculadora-lake-omega.vercel.app
 ## 🔧 Tecnologias
 
 **Linguagens:**
