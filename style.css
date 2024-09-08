@@ -49,6 +49,10 @@
     width: 65px;
   }
 
+  .key-operate{
+    font-size: 2rem;
+  }
+
 
   button:active,
   button:focus {
