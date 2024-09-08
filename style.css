@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background: #2E073F;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+  }
+
+.calc-text {
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.calc-text p {
+    width: 100%;
+    font-size: 3.5rem;
+    text-align: end;
+    background: transparent;
+    color: #EBD3F8;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+
+
+  button {
+    background: #7A1CAC;
+    color: #EBD3F8;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    height: 65px;
+    width: 65px;
+  }
+
+
+  button:active,
+  button:focus {
+    filter: brightness(120%); /*quando clicada, aumenta o brilho*/
+  }
+
+  .calc-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*cria um grid que a cada 4 pula a linha e adiciona mais*/
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+  }
+
+  .key-zero {
+    grid-column: span 2; /*faz a tecla zero ocupar dois espaços*/
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .key-operate { 
+    /*faz a cor ser diferente para os simbolos da calculadora que são da class operate*/
+    background: #AF47D2;
+  }
+
+  .key-others { /*outros botoes que não sao os numeros nem simbolos*/
+    background: #C8A1E0;
+    color: #2E073F;
+  }
