@@ -2,7 +2,7 @@
 
 Este projeto simples de uma calculadora, feito para treinar as habilidades básicas de programação web.
 
-![image](https://github.com/user-attachments/assets/95f149d2-eb2f-4015-a053-502516c81db9)
+![image](https://github.com/user-attachments/assets/69b554b7-34d4-4a1f-8970-7b075b1c3ca4)
 
 
 ## Instalação e iniciação
